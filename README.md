@@ -1,5 +1,5 @@
 # React + TypeScript + Vite
-
+HI THIS IS MY FIRST TYPESCRIPT PROJECT MADE USING TYPESCRIPT,VITE,RAPID-API,REDUX
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
