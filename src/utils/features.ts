@@ -18,6 +18,7 @@ return mcqOptions
 }
 
 export const translateWords = async (params:LangType): Promise<WordType[]>=>{
+  const rapidKey = import.meta.env.VITE_RAPID_API;
     try {
         const words = generate(8).map((i)=>({
             Text:i
@@ -33,7 +34,7 @@ export const translateWords = async (params:LangType): Promise<WordType[]>=>{
               },
               headers: {
                 'content-type': 'application/json',
-                'X-RapidAPI-Key': 'e70ab44c1bmsh23dd2f12750265cp14ae4ejsn78c85a252be4',
+                'X-RapidAPI-Key': rapidKey,
                 'X-RapidAPI-Host': 'microsoft-translator-text.p.rapidapi.com'
               },
         })
