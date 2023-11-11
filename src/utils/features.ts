@@ -1,6 +1,6 @@
 import axios from "axios";
 import { generate } from "random-words";
-import _, { forEach } from "lodash";
+import _ from "lodash";
 
 
 const generateMCQ = (meanign:{
